@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URBANSOLE</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+  
+  <script src="https://unpkg.com/feather-icons"></script>
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">URBAN<span>SOLE</span></a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#products">Produk</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    
+    <div class="shopping-cart">
+    </div>
+
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="mask-container">
+      <main class="content">
+        <h1>"Langkah Pasti, Gaya Terkini" </h1>
+        <p>Kombinasi sempurna antara kenyamanan maksimal dan desain yang menyempurnakan outfit harianmu.</p>
+        <a href="#products" class="cta">Beli Sekarang</a>
+      </main>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2><span>Why</span> Urban Sole?</h2>
+    
+    <div class="row">
+      <div class="about-card">
+        <div class="icon-container">
+          <i data-feather="shield" class="icon"></i>
+        </div>
+        <h3>100% Authentic</h3>
+        <p>Jaminan keaslian produk langsung dari pabrik resmi</p>
+      </div>
+
+      <div class="about-card">
+        <div class="icon-container">
+          <i data-feather="truck" class="icon"></i>
+        </div>
+        <h3>Fast Shipping</h3>
+        <p>Pengiriman kilat ke seluruh kota besar dalam 24 jam</p>
+      </div>
+
+      <div class="about-card">
+        <div class="icon-container">
+          <i data-feather="star" class="icon"></i>
+        </div>
+        <h3>Exclusive</h3>
+        <p>Model terbatas yang tidak akan ditemukan di toko lain</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2><span>Produk</span> Kami</h2>
+    <p>"Jelajahi koleksi sepatu eksklusif kami, dirancang untuk gaya, kenyamanan, dan performa terbaik."</p>
+    <div class="row">
+      <div class="menu-card">
+        <img src="img/menu/nike K.jpg" alt="Nike Dunk High" class="menu-card-img">
+        <h3 class="menu-card-title">- Nike Dunk High "Michigan" -</h3>
+        <p class="menu-card-price">IDR 1.500.000</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/biru.jpg" alt="Nike Air Zoom Pegasus Blue" class="menu-card-img">
+        <h3 class="menu-card-title">- Nike Air Zoom Pegasus Blue -</h3>
+        <p class="menu-card-price">IDR 1.000.000</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/ssl2.jpg" alt="Asics Gel-Kayano 14 Silver" class="menu-card-img">
+        <h3 class="menu-card-title">- Asics Gel-Kayano 14 Silver -</h3>
+        <p class="menu-card-price">IDR 950.000</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/hitam.jpg" alt="Fashion Sport FAST Edition" class="menu-card-img">
+        <h3 class="menu-card-title">- Fashion Sport "FAST" Edition -</h3>
+        <p class="menu-card-price">IDR 900.000</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/ssl4.jpg" alt="Rugged Edition" class="menu-card-img">
+        <h3 class="menu-card-title">- New Balance Rugged Edition -</h3>
+        <p class="menu-card-price">IDR 1.600.000</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/putih C.jpg" alt="New Balance 327 Moonbeam" class="menu-card-img">
+        <h3 class="menu-card-title">- New Balance 327 "Moonbeam" -</h3>
+        <p class="menu-card-price">IDR 1.550.000</p>
+      </div>
+    </div>
+  </section>
+<section class="products" id="products">
+    <h2><span>Produk BestSeller</span> Kami</h2>
+    <p>"Koleksi eksklusif yang memadukan desain modern dengan kenyamanan material kelas dunia."</p>
+
+    <div class="row">
+      
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#" class="add-to-cart" data-name="Air Jordan 1" data-price="3000000" data-img="img/products/NIKE.jpg">
+            <i data-feather="shopping-cart"></i>
+          </a>
+          <a href="#" class="item-detail-button"
+            data-img="img/products/NIKE.jpg"
+            data-title="Air Jordan 1 High OG"
+            data-price="3000000"
+            data-desc="Ikon streetwear sejati. Dibuat dengan kulit premium dan desain klasik yang tak lekang oleh waktu. Memberikan kenyamanan dan gaya maksimal di setiap langkah.">
+            <i data-feather="eye"></i>
+          </a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/NIKE.jpg" alt="Air Jordan 1">
+        </div>
+        <div class="product-content">
+          <h3>Air Jordan 1</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 3.000.000</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#" class="add-to-cart" data-name="Reebok CrossFit" data-price="2700000" data-img="img/products/rebook.jpg">
+            <i data-feather="shopping-cart"></i>
+          </a>
+          <a href="#" class="item-detail-button"
+            data-img="img/products/rebook.jpg"
+            data-title="Reebok Nano X3 Adventure"
+            data-price="2700000"
+            data-desc="Dirancang untuk segala medan. Sepatu training ini menawarkan stabilitas luar biasa untuk angkat beban dan fleksibilitas serta traksi untuk latihan outdoor yang intens.">
+            <i data-feather="eye"></i>
+          </a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/rebook.jpg" alt="Reebok CrossFit">
+        </div>
+        <div class="product-content">
+          <h3>Reebok CrossFit Nano</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 2.700.000</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#" class="add-to-cart" data-name="New Balance 574" data-price="2850000" data-img="img/products/Nb.jpg">
+            <i data-feather="shopping-cart"></i>
+          </a>
+          <a href="#" class="item-detail-button"
+            data-img="img/products/Nb.jpg"
+            data-title="New Balance 574 Core"
+            data-price="2850000"
+            data-desc="Gaya retro-running yang paling ikonik dari New Balance. Menggunakan teknologi midsole ENCAP untuk dukungan sepanjang hari dan tampilan kasual yang elegan.">
+            <i data-feather="eye"></i>
+          </a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/Nb.jpg" alt="New Balance 574">
+        </div>
+        <div class="product-content">
+          <h3>New Balance 574</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 2.850.000</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#" class="add-to-cart" data-name="Adidas Ultra Boost" data-price="2950000" data-img="img/products/adidas.jpg">
+            <i data-feather="shopping-cart"></i>
+          </a>
+          <a href="#" class="item-detail-button"
+            data-img="img/products/adidas.jpg"
+            data-title="Adidas Ultraboost Light"
+            data-price="2950000"
+            data-desc="Rasakan energi balik yang epik. Dilengkapi dengan teknologi Boost teringan kami, memberikan bantalan responsif yang luar biasa untuk lari jarak jauh maupun penggunaan harian.">
+            <i data-feather="eye"></i>
+          </a>
+        </div>
+        <div class="product-image">
+          <img src="img/products/adidas.jpg" alt="Adidas Ultra Boost">
+        </div>
+        <div class="product-content">
+          <h3>Adidas Ultra Boost</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 2.950.000</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>"Hubungi kami untuk informasi ketersediaan stok, kemitraan, atau layanan pelanggan."</p>
+
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63340.02255584597!2d113.4317831307206!3d-7.15471455362698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd77e09e1df0443%3A0x220d11dc60ada51e!2sPamekasan%2C%20Kec.%20Pamekasan%2C%20Kabupaten%20Pamekasan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1764596587909!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form id="contact-form">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" id="contact-name" placeholder="nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" id="contact-email" placeholder="email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" id="contact-phone" placeholder="no hp">
+        </div>
+        <button type="submit" class="btn" id="send-btn">kirim pesan</button>
+      </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="message-circle"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">Urbansole</a> | © 2025</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="" alt="Product Image" class="modal-img">
+        
+        <div class="product-content">
+          <h3 class="modal-title">Product Name</h3>
+          
+          <p class="modal-desc">Product Description</p>
+          
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          
+          <div class="product-price modal-price">IDR 0</div>
+          
+          <a href="#products"><i data-feather="shopping-cart"></i> Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    feather.replace()
+  </script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
